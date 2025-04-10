@@ -1,0 +1,37 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log and database files
+*.log
+*.sqlite3
+
+# Ignore distribution and build files
+dist/
+build/
+*.egg-info/
+
+# Ignore environment variables file (if any)
+.env
+
+# Ignore images or assets folder if not needed in the repository
+# Uncomment the line below if you don't want to include the logo or assets folder
+assets/
